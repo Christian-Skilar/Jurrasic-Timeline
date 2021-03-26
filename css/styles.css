@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Jurassic Park";
+	src: url("../fonts/JurassicPark.ttf") format("Truetype");
+}
+
+body {
+	font-family: Abel, Arial, Arial, Helvetica, sans-serif;
+}
+
+.info {
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: "Jurassic Park", Verdana, Geneva, Tahoma, sans-serif;
+	letter-spacing: 5px;
+}
+
+h1 {
+	font-size: 5rem;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 10px;
+	text-align: center;
+}
+
+main {
+	background: url("../images/landscape.jpg");
+	background-size: cover;
+	max-width: 1440px;
+	height: 700px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.era {
+	background: rgb(243, 239, 234);
+	border-radius: 5px;
+	height: 550px;
+	padding: 10px;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	opacity: 0;
+	transition: 1s opacity;
+}
+
+main h1 {
+	grid-column: 1 / -1;
+}
+
+figure img {
+	width: 100%;
+}
+
+.car {
+	background: url("../images/carr.png");
+	background-size: cover;
+	width: 200px;
+	height: 82px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
