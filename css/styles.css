@@ -5,6 +5,7 @@
 
 body {
 	font-family: Abel, Arial, Arial, Helvetica, sans-serif;
+	margin: 0;
 }
 
 .info {
@@ -33,12 +34,11 @@ main {
 	background: url("../images/landscape.jpg");
 	background-size: cover;
 	max-width: 1440px;
-	height: 700px;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
-	padding: 10px;
-	border-radius: 5px;
+	padding: 0 10px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -48,6 +48,7 @@ main {
 	border-radius: 5px;
 	height: 550px;
 	padding: 10px;
+	margin-top: 10px;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	opacity: 0;
